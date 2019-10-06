@@ -1,0 +1,245 @@
+/*Importando fonts desde Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Staatliches');
+
+html
+{
+	height: 100%;
+	overflow: auto;
+	scroll-behavior: smooth;
+}
+
+body
+{
+	height: 100%;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 15px;
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	box-shadow: 0 0 20px black;
+}
+
+header
+{
+	display:flex;
+	background-color: white;
+	align-items: flex-start;
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+	/*width: 100%;*/
+}
+
+.titlepage
+{
+   justify-self: center;
+   align-self: center;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   height: 100%;
+}
+
+#imagelogo
+{
+    justify-self:flex-start;
+    height: 100%;
+}
+
+h1
+{
+	font-family: 'Staatliches', cursive;
+	text-align: center;
+	font-size: 40px;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+	font-weight: normal;
+}
+
+address
+{
+	text-align: center;
+	background-color: #333333;
+	color: white;
+	margin: 0;
+	padding: 3px;
+}
+
+#nav
+{
+	font-family:  'Staatliches', cursive;
+	font-size: 20px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333333;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#itemNav
+{
+	float: left;
+}
+
+#item
+{
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 16px;
+}
+
+li #item:hover
+{
+	background-color: #C0392B;
+}
+
+#content
+{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+
+#portada
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-bottom: solid 3px #333;
+	margin: 5px;
+	padding: 5px;
+}
+
+#perfil
+{
+	border-radius: 50%;
+	margin: 30px;
+	box-shadow: 0 0 1em #333;
+}
+
+#conocimientos
+{
+	display: flex;
+	justify-content: center;
+	border-bottom: solid 3px;
+	height:50vh;
+	background-color: #333;
+	color: white;
+	overflow: hidden;
+}
+
+h2
+{
+	font-family: 'Staatliches', cursive;
+	font-size: 25px;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+
+}
+
+.imgdiv
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	box-shadow: 0 0 5px #C0392B;
+	margin: 10px;
+	padding: 10px;
+}
+
+.imgdiv2
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+#pconocimientos
+{
+	text-align: center;
+}
+
+#proyect
+{
+	list-style-image: url(../images/innovation.png);
+}
+
+li.specs
+{
+	list-style-position: inside;
+	list-style-image: none;
+	text-align: justify;
+	width: 90%;
+}
+
+nav ul li a
+{
+	width: 100px;
+}
+
+footer
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 10px;
+}
+
+#divcontact
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: solid 3px #333333;
+	background-color: white;
+	color: white;
+	overflow: hidden;
+}
+
+div .imgdiv2:hover
+{
+	border-radius: 5%;
+	box-shadow: 0 0 0.5em #333;
+}
+
+#table_c
+{
+	border-collapse: collapse;
+	padding: 15px;
+	text-align: left;
+	margin: 10px auto;
+	width: 95%;
+}
+
+th
+{
+	background-color: #C0392B;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+
+td, th
+{
+	border: 2px solid #333333;
+	padding-left: 10px;
+}
