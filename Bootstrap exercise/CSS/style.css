@@ -1,0 +1,48 @@
+.imgicon
+{
+    /*max-width: 60px;*/
+    height: 70px;
+    margin-top: 5px;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.carousel-item
+{
+    height: 80vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item > .item
+{
+    height: 400px;
+}
+
+.container-fluid
+{
+    overflow: hidden;
+}
+
+.imageCard
+{
+    height: 240px;
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0%;
+}
+
+.cardText
+{
+    background-color: white;
+}
+
+.desc
+{
+    margin-bottom: 10px;
+}
